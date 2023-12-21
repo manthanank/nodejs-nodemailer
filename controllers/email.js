@@ -1,9 +1,4 @@
-const express = require('express');
-const { Router } = require("express");
-const router = express.Router();
 const sendEmail = require("../utils/sendEmails");
-const nodemailer = require("nodemailer");
-const path=require('path');
 
 require("dotenv").config();
 
